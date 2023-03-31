@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Naruto;
+  src: url("njnaruto.ttf");
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  /* font-family: Naruto; */
+  color: rgb(22, 20, 20);
+}
+
+#main_logo {
+  width: 180px;
+}
+
+.hero {
+  /* height: 70vh; */
+  background-image: url("https://media.giphy.com/media/l0HUhzR00v9RCjTKo/giphy.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  text-shadow: 0 0 5px white;
+}
+
+.btn_apply {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px 10px;
+  background-color: #fffeff;
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Buttons do not inherit font-family. So one can use font-family: inherit or mention the font styles again */
+
+.explore {
+  border-bottom: 5px solid #6EBDB9;
+}
